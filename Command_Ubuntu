@@ -1,0 +1,94 @@
+# 🟢 BASIC COMMANDS
+pwd                     # Show current working directory
+ls                      # List files in current directory
+ls -l                   # Long listing with permissions
+ls -a                   # List all files including hidden
+cd /path/               # Change directory
+cd ..                   # Go one directory back
+whoami                  # Show current logged-in user
+hostname                # Show system hostname
+clear                   # Clear terminal
+date                    # Show system date and time
+cal                     # Show calendar
+
+# 📂 FILE & DIRECTORY MANAGEMENT
+touch file.txt          # Create an empty file
+cat file.txt            # Show file content
+less file.txt           # View file content page by page
+head -n 5 file.txt      # Show first 5 lines of file
+tail -n 5 file.txt      # Show last 5 lines of file
+nano file.txt           # Edit file using Nano editor
+vim file.txt            # Edit file using Vim editor
+mkdir folder            # Create a new directory
+mkdir -p dir1/dir2      # Create nested directories
+rmdir folder            # Remove empty directory
+rm file.txt             # Delete a file
+rm -r folder            # Delete folder and contents
+cp file1 file2          # Copy file
+cp -r dir1 dir2         # Copy directory
+mv file1 file2          # Rename or move file
+
+# 👥 USER MANAGEMENT
+who                     # Show logged in users
+id                      # Show current user ID and groups
+adduser newuser         # Add new user
+passwd newuser          # Change user password
+su - newuser            # Switch user
+groups                  # Show groups of current user
+usermod -aG group user  # Add user to a group
+
+# 🔑 PERMISSIONS
+ls -l                   # Show file permissions
+chmod 755 file          # Change file permissions
+chmod +x script.sh      # Make script executable
+chown user:group file   # Change file owner
+
+# ⚙️ PROCESS MANAGEMENT
+ps                      # Show running processes
+ps aux                  # Detailed process list
+top                     # Show processes live
+htop                    # Better process viewer (install first)
+kill PID                # Kill process by PID
+kill -9 PID             # Force kill process
+jobs                    # Show background jobs
+fg %1                   # Bring job 1 to foreground
+bg %1                   # Run job 1 in background
+
+# 🔎 SEARCHING & FINDING
+find /path -name file.txt       # Find file by name
+grep "text" file.txt            # Search text in file
+grep -r "pattern" dir/          # Search in all files inside directory
+locate filename                 # Find file quickly (uses DB)
+updatedb                        # Update locate database
+
+# 📦 PACKAGE MANAGEMENT (APT)
+sudo apt update                 # Update package index
+sudo apt upgrade                # Upgrade all packages
+sudo apt install pkgname        # Install package
+sudo apt remove pkgname         # Remove package
+sudo apt purge pkgname          # Remove package + config
+dpkg -i package.deb             # Install .deb file manually
+
+# 🌐 NETWORKING
+ip addr show                    # Show system IP addresses
+ifconfig                        # Show system IP (old tool)
+ping google.com                 # Test connectivity
+wget http://example.com/file    # Download file
+curl http://example.com         # Fetch webpage content
+ssh user@host                   # Connect to remote server
+scp file user@host:/path        # Copy file to remote server
+
+# 📂 FILE COMPRESSION & ARCHIVING
+zip file.zip file1 file2        # Create zip archive
+zip -r docs.zip docs/           # Compress directory into zip
+unzip file.zip                  # Extract zip archive
+tar -cvf archive.tar files/     # Create tar archive
+tar -czvf archive.tar.gz files/ # Create gzip compressed tar
+tar -xzvf archive.tar.gz        # Extract gzip tar
+
+# 📊 SYSTEM MONITORING
+df -h                           # Show disk usage
+du -sh folder                   # Show folder size
+free -h                         # Show RAM usage
+uptime                          # Show system uptime
+uname -a                        # Show kernel & system info
