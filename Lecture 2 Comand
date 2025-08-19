@@ -1,3 +1,13 @@
+Man cat ------- for all linux command
 head -5 colors.txt ----------- get first 5 line of content
 head -3 colors.txt ----------- get 3 lines 
 cat >> shantu.txt  colors.txt ---- >> this symbol is used for transfer data one to another without editing of sourse
+rev colors.txt  -----------------  Reverse the file data
+wc colors.txt  ------------- 8(no.line) 9(no.Words) 50(no.chr) colors.txt
+wc -l colors.txt --------- only numbers of line 
+wc -w colors.txt --------- only word count 
+wc -c colors.txt ---------- only char count
+wc filel.txt colors.txt ---- find diff file count
+sort colors.txt ----- sorting of the data 
+sort colors.txt | uniq --- unique data 
+ls A* ---------- finf file of that ltter 
