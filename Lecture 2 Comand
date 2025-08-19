@@ -1,0 +1,3 @@
+head -5 colors.txt ----------- get first 5 line of content
+head -3 colors.txt ----------- get 3 lines 
+cat >> shantu.txt  colors.txt ---- >> this symbol is used for transfer data one to another without editing of sourse
