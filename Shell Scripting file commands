@@ -1,0 +1,21 @@
+# 1. Create a file using vi editor
+vi filename.sh
+
+# 2. Press 'i' to enter Insert mode
+
+# 3. Add the commands and code
+# Example: Add Shebang line
+#!/bin/bash
+echo "Hello, World!"
+
+# 4. Save and Exit
+# Press ESC then type:
+:wq
+
+# 5. Give execute permission to the file
+chmod +x filename.sh
+
+# 6. Execute the script
+./filename.sh
+# OR
+bash filename.sh
