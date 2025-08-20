@@ -12,3 +12,7 @@ sort colors.txt ----- sorting of the data
 sort colors.txt | uniq --- unique data 
 ls A* ---------- finf file of that ltter 
 tac --------- Reverse the data 
+
+
+-----------------------------File Comands----------------------------------------------------------
+chmod u+rwx,g-rw,o-w g1.txt - gives permision in that user get all (u+rwx) , group only get read & write(g-rw) , other get only w (o-w)
