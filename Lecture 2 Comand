@@ -11,3 +11,4 @@ wc filel.txt colors.txt ---- find diff file count
 sort colors.txt ----- sorting of the data 
 sort colors.txt | uniq --- unique data 
 ls A* ---------- finf file of that ltter 
+tac --------- Reverse the data 
