@@ -12,6 +12,10 @@ sort colors.txt ----- sorting of the data
 sort colors.txt | uniq --- unique data 
 ls A* ---------- finf file of that ltter 
 tac --------- Reverse the data 
+mv oldname newname ---- Rename or move files
+chmod – Change file permissions.
+cat (cat file1.txt file2.txt > merged.txt ) – View or concatenate file contents.
+
 
 
 -----------------------------File Comands----------------------------------------------------------
